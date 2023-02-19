@@ -17,6 +17,9 @@
 
 #include "usb_microphone.h"
 
+#define SAMPLE_RATEE 16000
+#define SAMPLE_BUFFER_SIZEE 16
+
 // configuration
 const struct analog_microphone_config config = {
   .gpio = 26,
